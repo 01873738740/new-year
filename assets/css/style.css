@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 1320px;
+    margin: 60px auto;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner-image.png') no-repeat center/cover;
+    border-radius: 16px;
+}
+
+.banner-s-title {
+    color: #FFF;
+    font-size: 32px;
+}
+
+.banner-l-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+.off {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 48px;
+}
+
+.off-sub {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.cat-title {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.new-year-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-year-img {
+    width: 800px;
+    height: auto;
+}
+
+.party {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 600px;
+    width: 1320px;
+    margin: auto;
+    margin-top: 60px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png') no-repeat center/cover;
+    border-radius: 16px;
+}
+
+.party-txt {
+    margin-left: 126px;
+}
+
+.party-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+}
+
+.party-sub {
+    color: #ffffffc0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+
+.party-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding-left: 32px;
+}
+
+.details {
+    width: 1320px;
+    margin: 60px auto;
+    padding: 100px 0px;
+    border-radius: 16px;
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+.red {
+    color: #F00;
+}
+
+.join-btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+    margin-top: 64px;
+}
+
+.coming {
+    width: 1320px;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+}
+
+.flex-v-center {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.com-left-sub {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.com-left-head {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.com-center{
+    border-radius: 100%;
+    border: 5px solid #F00;
+}
+
+.center-img{
+ margin: 10px;
+}
+
+.com-r-h {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.sale {
+    width: 1320px;
+    margin: 60px auto;
+}
+
+.function {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.holiday-sale-title {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.sale-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 64px;
+}
+
+.sale-img-container {
+    width: 100%;
+    height: 662px;
+    position: relative;
+    overflow: hidden;
+}
+
+.img1 {
+    position: absolute;
+    right: 285px;
+    top: 90px;
+    z-index: 10;
+}
+
+.img2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.img3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.img4 {
+    position: absolute;
+    bottom: 20px;
+}
+
+.portfolio {
+    width: 1320px;
+    margin: 60px auto;
+}
+
+.port-sub {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 22px;
+}
+
+.port-head {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.port-des {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.subscribe {
+    width: 1320px;
+    margin: 60px auto;
+    padding: 80px 0px;
+    background-color: rgba(255, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    width: 648px;
+    height: 72px;
+}
+
+.input-field {
+    width: 70%;
+    height: 72px;
+    border-radius: 50px 0 0 50px;
+    border: none;
+    color: rgba(7, 2, 17, 0.30);
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.input-btn {
+    width: 30%;
+    height: 72px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+}
+
+footer {
+    padding: 120px 140px;
+    background-color: #070211;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.call {
+    display: flex;
+    gap: 16px;
+}
+
+.web {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.contact-icon {
+    height: 24px;
+    width: 24px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 98px 0px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
